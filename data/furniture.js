@@ -1,6 +1,8 @@
+const generateId = require("../util/generateId");
+
 const products = [
   {
-    id: Math.random().toString(),
+    id: generateId(),
     name: "Fanbyn Bar Stool",
     price: 249.99,
     description:
@@ -8,18 +10,18 @@ const products = [
     images: [
       {
         id: "0",
-        source: "/fanbyn-bar-stool-with-backrest__1.webp",
+        source: "/furniture/fanbyn-bar-stool-with-backrest__1.webp",
         color: "#E9E9E9",
       },
       {
         id: "1",
-        source: "/fanbyn-bar-stool-with-backrest__2.webp",
+        source: "/furniture/fanbyn-bar-stool-with-backrest__2.webp",
         color: "#5E605F",
       },
     ],
   },
   {
-    id: Math.random().toString(),
+    id: generateId(),
     name: "Ikea Armchair",
     price: 249.99,
     description:
@@ -27,12 +29,12 @@ const products = [
     images: [
       {
         id: "0",
-        source: "/ikea-ps-2012-armchair__1.webp",
+        source: "/furniture/ikea-ps-2012-armchair__1.webp",
       },
     ],
   },
   {
-    id: Math.random().toString(),
+    id: generateId(),
     name: "Janinge Chair",
     price: 149.99,
     description:
@@ -40,18 +42,18 @@ const products = [
     images: [
       {
         id: "0",
-        source: "/janinge-chair__1.webp",
+        source: "/furniture/janinge-chair__1.webp",
         color: "#EAC91C",
       },
       {
         id: "1",
-        source: "/janinge-chair__2.webp",
+        source: "/furniture/janinge-chair__2.webp",
         color: "#C8C9C4",
       },
     ],
   },
   {
-    id: Math.random().toString(),
+    id: generateId(),
     name: "Janinge Bar Stool",
     price: 149.99,
     description:
@@ -59,18 +61,18 @@ const products = [
     images: [
       {
         id: "0",
-        source: "/janinge-bar-stool__1.webp",
+        source: "/furniture/janinge-bar-stool__1.webp",
         color: "#8C8C8C",
       },
       {
         id: "1",
-        source: "/janinge-bar-stool__2.webp",
+        source: "/furniture/janinge-bar-stool__2.webp",
         color: "#E9EAE5",
       },
     ],
   },
   {
-    id: Math.random().toString(),
+    id: generateId(),
     name: "Leifarne Armchair",
     price: 299.99,
     description:
@@ -78,23 +80,23 @@ const products = [
     images: [
       {
         id: "0",
-        source: "/leifarne-armchair__1.webp",
+        source: "/furniture/leifarne-armchair__1.webp",
         color: "#CD9929",
       },
       {
         id: "1",
-        source: "/leifarne-armchair__2.webp",
+        source: "/furniture/leifarne-armchair__2.webp",
         color: "#DBDCD3",
       },
       {
         id: "2",
-        source: "/leifarne-armchair__3.webp",
+        source: "/furniture/leifarne-armchair__3.webp",
         color: "#B99C6F",
       },
     ],
   },
   {
-    id: Math.random().toString(),
+    id: generateId(),
     name: "Adde chair",
     price: 99.99,
     description:
@@ -102,23 +104,23 @@ const products = [
     images: [
       {
         id: "0",
-        source: "/adde-chair__1.webp",
+        source: "/furniture/adde-chair__1.webp",
         color: "#3B3C39",
       },
       {
         id: "1",
-        source: "/adde-chair__2.webp",
+        source: "/furniture/adde-chair__2.webp",
         color: "#85898C",
       },
       {
         id: "2",
-        source: "/adde-chair__3.webp",
+        source: "/furniture/adde-chair__3.webp",
         color: "#EDEBE7",
       },
     ],
   },
   {
-    id: Math.random().toString(),
+    id: generateId(),
     name: "Terje Folding Chair",
     price: 299.99,
     description:
@@ -126,28 +128,28 @@ const products = [
     images: [
       {
         id: "0",
-        source: "/terje-folding-chair__1.webp",
+        source: "/furniture/terje-folding-chair__1.webp",
         color: "#262626",
       },
       {
         id: "1",
-        source: "/terje-folding-chair__2.webp",
+        source: "/furniture/terje-folding-chair__2.webp",
         color: "#CF9F76",
       },
       {
         id: "2",
-        source: "/terje-folding-chair__3.webp",
+        source: "/furniture/terje-folding-chair__3.webp",
         color: "#DADBD6",
       },
       {
         id: "3",
-        source: "/terje-folding-chair__4.webp",
+        source: "/furniture/terje-folding-chair__4.webp",
         color: "#262626",
       },
     ],
   },
   {
-    id: Math.random().toString(),
+    id: generateId(),
     name: "Volfgang Chair",
     price: 89.99,
     description:
@@ -155,28 +157,28 @@ const products = [
     images: [
       {
         id: "0",
-        source: "/volfgang-chair__1.webp",
+        source: "/furniture/volfgang-chair__1.webp",
         color: "#B6B4B3",
       },
       {
         id: "1",
-        source: "/volfgang-chair__2.webp",
+        source: "/furniture/volfgang-chair__2.webp",
         color: "#646466",
       },
       {
         id: "2",
-        source: "/volfgang-chair__3.webp",
+        source: "/furniture/volfgang-chair__3.webp",
         color: "#CEC7BE",
       },
       {
         id: "3",
-        source: "/volfgang-chair__4.webp",
+        source: "/furniture/volfgang-chair__4.webp",
         color: "#433F3E",
       },
     ],
   },
   {
-    id: Math.random().toString(),
+    id: generateId(),
     name: "Roenninge Chair Birch",
     price: 299.99,
     description:
@@ -184,17 +186,17 @@ const products = [
     images: [
       {
         id: "0",
-        source: "/roenninge-chair-birch__1.webp",
+        source: "/furniture/roenninge-chair-birch__1.webp",
         color: "#E2C39E",
       },
       {
         id: "1",
-        source: "/roenninge-chair-birch__2.webp",
+        source: "/furniture/roenninge-chair-birch__2.webp",
         color: "#60735F",
       },
       {
         id: "2",
-        source: "/roenninge-chair-birch__3.webp",
+        source: "/furniture/roenninge-chair-birch__3.webp",
         color: "#2A2A28",
       },
     ],
@@ -203,7 +205,7 @@ const products = [
 
 const recommendedProducts = [
   {
-    id: Math.random().toString(),
+    id: generateId(),
     name: "Sofa",
     price: 299.99,
     description:
@@ -211,23 +213,23 @@ const recommendedProducts = [
     images: [
       {
         id: "0",
-        source: "/sofa-1.png",
+        source: "/furniture/sofa-1.png",
         color: "#202646",
       },
       {
         id: "1",
-        source: "/sofa-2.png",
+        source: "/furniture/sofa-2.png",
         color: "#918881",
       },
       {
         id: "2",
-        source: "/sofa-3.png",
+        source: "/furniture/sofa-3.png",
         color: "#B6B6B6",
       },
     ],
   },
   {
-    id: Math.random().toString(),
+    id: generateId(),
     name: "Sofa",
     price: 199.99,
     description:
@@ -235,17 +237,17 @@ const recommendedProducts = [
     images: [
       {
         id: "0",
-        source: "/conf_sofa__1.png",
+        source: "/furniture/conf_sofa__1.png",
         color: "#88B0B1",
       },
       {
         id: "1",
-        source: "/conf_sofa__2.png",
+        source: "/furniture/conf_sofa__2.png",
         color: "#726F72",
       },
       {
         id: "2",
-        source: "/conf_sofa__3.png",
+        source: "/furniture/conf_sofa__3.png",
         color: "#C6C2B7",
       },
     ],
