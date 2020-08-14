@@ -3,10 +3,49 @@ const generateId = require("../util/generateId");
 const products = [
   {
     id: generateId(),
+    name: "Air Edge 270",
+    price: 89.99,
+    description:
+      "The Nike Air Edge 270 takes the look of retro basketball and puts it through a modern lens. Featuring Nike's biggest heel Air unit yet, it delivers total comfort and versatile style.",
+    images: [
+      {
+        id: "0",
+        source: "/shoes/air-edge-270-mens-shoe-fRCSW5__1.jpg",
+        color: "#4781C3",
+      },
+      {
+        id: "1",
+        source: "/shoes/air-edge-270-mens-shoe-fRCSW5__2.jpg",
+        color: "#4781C3",
+      },
+      {
+        id: "2",
+        source: "",
+        color: "#4781C3",
+      },
+      {
+        id: "3",
+        source: "",
+        color: "#4781C3",
+      },
+      {
+        id: "4",
+        source: "/shoes/air-edge-270-mens-shoe-fRCSW5__5.jpg",
+        color: "#4781C3",
+      },
+      {
+        id: "5",
+        source: "/shoes/air-edge-270-mens-shoe-fRCSW5__6.jpg",
+        color: "#4781C3",
+      },
+    ],
+  },
+  {
+    id: generateId(),
     name: "Nike Superrep Go",
     price: 249.99,
     description:
-      "Do ea est sint sint laboris eu officia veniam. Cupidatat amet fugiat incididunt occaecat sint eiusmod anim.",
+      "The Nike SuperRep Go combines comfortable foam cushioning, flexibility and support to get you moving in circuit-based fitness classes or while streaming workouts at home.",
     images: [
       {
         id: "0",
@@ -20,7 +59,7 @@ const products = [
       },
       {
         id: "2",
-        source: "/shoes/superrep-go-mens-training-shoe-19sK4X__4.jpg",
+        source: "/shoes/superrep-go-mens-training-shoe-19sK4X__3.jpg",
         color: "#96E217",
       },
       {
@@ -45,7 +84,7 @@ const products = [
     name: "Nike React Metcon",
     price: 249.99,
     description:
-      "Do ea est sint sint laboris eu officia veniam. Cupidatat amet fugiat incididunt occaecat sint eiusmod anim.",
+      "The Nike React Metcon takes the stability and traction from the training original and pairs it with Nike's most comfortable cushioning. Tackle high-impact and lifting workouts with a light, breathable upper and durable grip to keep you going.",
     images: [
       {
         id: "0",
@@ -84,7 +123,7 @@ const products = [
     name: "Nike Air Vapormax 360",
     price: 149.99,
     description:
-      "Commodo incididunt quis occaecat cupidatat Lorem non culpa voluptate eu commodo amet. Occaecat nulla et enim anim consequat nisi aliquip dolor laborum et dolor nostrud consectetur aute.",
+      "Inspired by heritage running shoes like the 2006 Air Max 360, the Nike Air Vapormax 360 reimagines full-length Air with its lighter, more flexible design. The full-length foam midsole adds to the comfort while bold colors create a fresh, modern look.",
     images: [
       {
         id: "0",
@@ -93,7 +132,7 @@ const products = [
       },
       {
         id: "1",
-        source: "/shoes/air-vapormax-360-mens-shoe-b09bdB__1.jpg",
+        source: "/shoes/air-vapormax-360-mens-shoe-b09bdB__2.jpg",
         color: "#4C6069",
       },
       {
@@ -103,12 +142,12 @@ const products = [
       },
       {
         id: "3",
-        source: "/shoes/air-vapormax-360-mens-shoe-b09bdB__3.jpg",
+        source: "/shoes/air-vapormax-360-mens-shoe-b09bdB__4.jpg",
         color: "#4C6069",
       },
       {
         id: "4",
-        source: "/shoes/air-vapormax-360-mens-shoe-b09bdB__6.jpg",
+        source: "/shoes/air-vapormax-360-mens-shoe-b09bdB__5.jpg",
         color: "#4C6069",
       },
       {
@@ -123,7 +162,7 @@ const products = [
     name: "Nike Air Vapormax 2020",
     price: 149.99,
     description:
-      "Commodo occaecat qui eiusmod aliquip est velit officia voluptate aute eiusmod tempor ad ex. Irure excepteur cupidatat ut eu adipisicing eu irure enim cillum consectetur.",
+      "Designed with sustainability in mind, the Nike Air VaporMax 2020 Flyknit is made from at least 50% recycled content by weight. That’s a lot of trash! As part of Nike’s journey towards lowering our impact, we’re discovering new ways to put our waste to good use. By utilizing leftover materials, recycled polyester, recycled foam, and a Nike Air sole made from at least 75% recycled TPU, the VaporMax 2020 Flyknit marks the next step towards our ultimate goal of zero carbon and zero waste.",
     images: [
       {
         id: "0",
@@ -132,7 +171,7 @@ const products = [
       },
       {
         id: "1",
-        source: "/shoes/air-vapormax-2020-fk-mens-shoe-mZ0Fz6__1.jpg",
+        source: "/shoes/air-vapormax-2020-fk-mens-shoe-mZ0Fz6__2.jpg",
         color: "#2E2F39",
       },
       {
@@ -147,66 +186,13 @@ const products = [
       },
       {
         id: "4",
-        source: "/shoes/air-vapormax-2020-fk-mens-shoe-mZ0Fz6__6.jpg",
+        source: "/shoes/air-vapormax-2020-fk-mens-shoe-mZ0Fz6__5.jpg",
         color: "#2E2F39",
       },
       {
         id: "5",
         source: "/shoes/air-vapormax-2020-fk-mens-shoe-mZ0Fz6__6.jpg",
         color: "#2E2F39",
-      },
-    ],
-  },
-  {
-    id: generateId(),
-    name: "Leifarne Armchair",
-    price: 299.99,
-    description:
-      "Laboris adipisicing sint reprehenderit cupidatat velit veniam aliquip do incididunt minim proident. Elit tempor eiusmod reprehenderit mollit nostrud duis qui irure officia consequat tempor eiusmod.",
-    images: [
-      {
-        id: "0",
-        source: "/shoes/leifarne-armchair__1.jpg",
-        color: "#CD9929",
-      },
-      {
-        id: "1",
-        source: "/shoes/leifarne-armchair__2.jpg",
-        color: "#DBDCD3",
-      },
-      {
-        id: "2",
-        source: "/shoes/leifarne-armchair__3.jpg",
-        color: "#B99C6F",
-      },
-    ],
-  },
-  {
-    id: generateId(),
-    name: "Volfgang Chair",
-    price: 89.99,
-    description:
-      "Consequat minim nostrud aliqua cupidatat ullamco sit eu nisi aliquip aliquip aute. Minim sunt occaecat enim labore veniam incididunt aliquip adipisicing in eiusmod amet adipisicing.",
-    images: [
-      {
-        id: "0",
-        source: "/shoes/volfgang-chair__1.jpg",
-        color: "#B6B4B3",
-      },
-      {
-        id: "1",
-        source: "/shoes/volfgang-chair__2.jpg",
-        color: "#646466",
-      },
-      {
-        id: "2",
-        source: "/shoes/volfgang-chair__3.jpg",
-        color: "#CEC7BE",
-      },
-      {
-        id: "3",
-        source: "/shoes/volfgang-chair__4.jpg",
-        color: "#433F3E",
       },
     ],
   },
@@ -220,32 +206,32 @@ const products = [
       {
         id: "0",
         source: "/shoes/air-vapormax-plus-womens-shoe-xbt7zf__1.jpg",
-        color: "#C96C85",
+        color: "#F2B8DF",
       },
       {
         id: "1",
         source: "/shoes/air-vapormax-plus-womens-shoe-xbt7zf__2.jpg",
-        color: "#C96C85",
+        color: "#F2B8DF",
       },
       {
         id: "2",
         source: "/shoes/air-vapormax-plus-womens-shoe-xbt7zf__3.jpg",
-        color: "#C96C85",
+        color: "#F2B8DF",
       },
       {
         id: "3",
-        source: "/shoes/air-vapormax-plus-womens-shoe-xbt7zf__1.jpg",
-        color: "#C96C85",
+        source: "/shoes/air-vapormax-plus-womens-shoe-xbt7zf__4.jpg",
+        color: "#F2B8DF",
       },
       {
         id: "4",
-        source: "/shoes/air-vapormax-plus-womens-shoe-xbt7zf__2.jpg",
-        color: "#C96C85",
+        source: "/shoes/air-vapormax-plus-womens-shoe-xbt7zf__5.jpg",
+        color: "#F2B8DF",
       },
       {
         id: "5",
-        source: "/shoes/air-vapormax-plus-womens-shoe-xbt7zf__3.jpg",
-        color: "#C96C85",
+        source: "/shoes/air-vapormax-plus-womens-shoe-xbt7zf__6.jpg",
+        color: "#F2B8DF",
       },
     ],
   },
@@ -254,10 +240,49 @@ const products = [
 const recommendedProducts = [
   {
     id: generateId(),
+    name: "Air Force 1 Shadow - Womens",
+    price: 199.99,
+    description:
+      "The Nike Air Force 1 Shadow pays homage to the women who are setting an example for the next generation by being forces of change in their community. This sneaker reflects this ethos in its design with double the swoosh, double the height, and double the force.",
+    images: [
+      {
+        id: "0",
+        source: "/shoes/air-force-1-shadow-womens-shoe-kTgn9J__1.jpg",
+        color: "#E0EDC1",
+      },
+      {
+        id: "1",
+        source: "/shoes/air-force-1-shadow-womens-shoe-kTgn9J__2.jpg",
+        color: "#E0EDC1",
+      },
+      {
+        id: "2",
+        source: "/shoes/air-force-1-shadow-womens-shoe-kTgn9J__3.jpg",
+        color: "#E0EDC1",
+      },
+      {
+        id: "3",
+        source: "/shoes/air-force-1-shadow-womens-shoe-kTgn9J__4.jpg",
+        color: "#E0EDC1",
+      },
+      {
+        id: "4",
+        source: "/shoes/air-force-1-shadow-womens-shoe-kTgn9J__5.jpg",
+        color: "#E0EDC1",
+      },
+      {
+        id: "5",
+        source: "/shoes/air-force-1-shadow-womens-shoe-kTgn9J__6.jpg",
+        color: "#E0EDC1",
+      },
+    ],
+  },
+  {
+    id: generateId(),
     name: "React Infinity Run Flyknit",
     price: 299.99,
     description:
-      "Elit tempor eiusmod reprehenderit mollit nostrud duis qui irure officia consequat tempor eiusmod.",
+      "The Nike React Infinity Run Flyknit is designed to help reduce injury and keep you on the run. More foam and improved upper details provide a secure and cushioned feel. Lace up and feel the potential as you hit the road.",
     images: [
       {
         id: "0",
@@ -341,7 +366,7 @@ const recommendedProducts = [
     name: "Nike Supperrep Go",
     price: 199.99,
     description:
-      "Elit tempor eiusmod reprehenderit mollit nostrud duis qui irure officia consequat tempor eiusmod.",
+      "The Nike SuperRep Go combines comfortable foam cushioning, flexibility and support to get you moving in circuit-based fitness classes or while streaming workouts at home.",
     images: [
       {
         id: "0",
@@ -355,7 +380,7 @@ const recommendedProducts = [
       },
       {
         id: "2",
-        source: "/shoes/superrep-go-mens-training-shoe-19sK4X__4.jpg",
+        source: "/shoes/superrep-go-mens-training-shoe-19sK4X__3.jpg",
         color: "#AEEA41",
       },
       {
@@ -380,7 +405,7 @@ const recommendedProducts = [
     name: "Jordan Zoom Trunner",
     price: 199.99,
     description:
-      "Elit tempor eiusmod reprehenderit mollit nostrud duis qui irure officia consequat tempor eiusmod.",
+      "The Nike React Metcon takes the stability and traction from the training original and pairs it with Nike's most comfortable cushioning. Tackle high-impact and lifting workouts with a light, breathable upper and durable grip to keep you going.",
     images: [
       {
         id: "0",
@@ -423,3 +448,5 @@ const recommendedProducts = [
 ];
 
 module.exports = { products, recommendedProducts };
+
+// The Nike Air VaporMax Plus looks to the past and propels you into the future. Nodding to the '98 Air Max Plus with its floating cage, padded upper and heel logo, it adds revolutionary VaporMax Air technology to ramp up the comfort.
