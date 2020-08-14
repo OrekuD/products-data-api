@@ -201,7 +201,7 @@ const products = [
     name: "Air Vapormax Plus Womens",
     price: 299.99,
     description:
-      "Elit tempor eiusmod reprehenderit mollit nostrud duis qui irure officia consequat tempor eiusmod.",
+      "The Nike Air VaporMax Plus looks to the past and propels you into the future. Nodding to the '98 Air Max Plus with its floating cage, padded upper and heel logo, it adds revolutionary VaporMax Air technology to ramp up the comfort.",
     images: [
       {
         id: "0",
@@ -422,7 +422,7 @@ const recommendedProducts = [
       {
         id: "2",
         source:
-          "/shoes/jordan-zoom-trunner-ultimate-running-shoe-bW1Dzz__4.jpg",
+          "/shoes/jordan-zoom-trunner-ultimate-running-shoe-bW1Dzz__3.jpg",
         color: "#93E190",
       },
       {
@@ -448,5 +448,3 @@ const recommendedProducts = [
 ];
 
 module.exports = { products, recommendedProducts };
-
-// The Nike Air VaporMax Plus looks to the past and propels you into the future. Nodding to the '98 Air Max Plus with its floating cage, padded upper and heel logo, it adds revolutionary VaporMax Air technology to ramp up the comfort.
