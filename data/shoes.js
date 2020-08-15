@@ -327,7 +327,7 @@ const recommendedProducts = [
     name: "Nike Metcon 6",
     price: 299.99,
     description:
-      "Elit tempor eiusmod reprehenderit mollit nostrud duis qui irure officia consequat tempor eiusmod.",
+      "The most breathable version yet, the Nike Metcon 6 helps keep your foot cool when you're going full steam. It stands up to the push and pull of lifting and high-intensity workouts, delivering stability and durability. Now the best Metcon yet is ready for your personal touch with haptic prints that incorporate metallics, new accents and a personal iD.",
     images: [
       {
         id: "0",
